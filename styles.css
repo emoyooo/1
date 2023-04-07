@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Secular+One&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #00181c;
+  font-family: "Inter", sans-serif;
+  height: fit-content;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: white;
+  column-gap: 60px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.main-container {
+  position: relative;
+}
+
+.background-element-1 {
+  position: absolute;
+  width: 40%;
+  top: 60px;
+  left: 45%;
+  z-index: -4;
+}
+
+.background-element-1 img {
+  width: 100%;
+}
+
+.title {
+  font-family: "Secular One", sans-serif;
+  color: white;
+  font-size: 205px;
+  margin: auto;
+  width: 85%;
+}
+.title span {
+  line-height: 1;
+}
+
+.background-element-2 {
+  position: relative;
+}
+.relative-title {
+  position: absolute;
+  top: 40px;
+  z-index: -3;
+}
+
+.transparent {
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  position: absolute;
+  z-index: 3;
+  top: 40px;
+}
+
+.human-head {
+  position: absolute;
+  left: 15%;
+  width: 75%;
+  position: sticky;
+  top: -50;
+}
+
+.human-head img {
+  position: absolute;
+  top: 0;
+  width: 98%;
+  display: flex;
+}
+
+.class span {
+  color: white;
+  font-size: 30px;
+}
+
+.class button {
+  background-color: #1df659;
+  border: none;
+  padding: 20px 30px;
+  font-size: 24px;
+  color: #00181c;
+  margin-top: 30px;
+}
+
+.class {
+  width: 20%;
+  margin: 280px 120px 200px;
+}
+
+.cards {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.card {
+  background-color: #ffffff1a;
+  width: 25%;
+  padding: 30px;
+  border-radius: 0px 89px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.card-title span {
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.card-text {
+  color: #ffffffcc;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.card-link {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.circle {
+  background-color: #1df659;
+  padding: 9px 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #1df65b4a;
+  color: #00181c;
+}
+
+.card-link a {
+  color: #1df659;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.right {
+  border-radius: 89px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1505px) {
+  .main-container span {
+    font-size: 10rem;
+    display: block;
+    text-align: center;
+  }
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .class {
+    margin: 210px 140px 200px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main-container {
+    width: 99%;
+    margin: auto;
+  }
+  .human-head {
+    width: 99%;
+  }
+  .main-container span {
+    font-size: 8rem;
+    display: block;
+    text-align: center;
+  }
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .class {
+    margin: 280px 45px 200px;
+  }
+}
